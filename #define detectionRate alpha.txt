@@ -1,0 +1,106 @@
+#define detectionRate alpha
+
+induceError()
+{
+
+}
+bool SPD()
+{
+ 	if(n(photons)==1)
+		return 1;
+	else
+		return 0;
+}
+
+QND()
+{
+      
+
+    send to beam splitter;
+    if(!SPD())
+        split();
+    Else
+        teleport();
+
+}
+
+Split(**mat,n)
+{
+    //[a b]^n --> split into [a b] and [a b]^(n-1)
+    // [a b] --> quantumMemoryStore()
+    // [a b]^n-1 --> teleport()
+
+    int randomiseMatrix(n); //1 to 2n--> random add 1 to that random position
+
+    for(i=0;i<m;i++)
+    {
+        if(arr[i]==1)
+    }
+    error++;
+}
+quantumMemoryStore()
+{
+    
+}
+
+teleport()
+{
+    //from Eve to Charlie and Charlie to EvePrime
+    //Charlie provides Bell State
+}
+
+Measurement()
+{
+    induceError()
+}
+gainMatching() 
+{
+    detectionRate=alpha-error
+   
+    if(rate< detectionRate)
+    {
+
+    }
+    else
+    {
+        cout<<" We are caught!";
+    }
+}
+PNS()
+{
+    Eve()
+    EvePrime()
+}
+Eve()
+{
+    QND()
+    teleport()
+    measurement()
+    induceError()
+
+}
+EvePrime()
+{
+    gainMatching()
+    induceErrors()
+}
+Charlie()
+{
+
+}
+Bob()
+{
+
+}
+Alice()
+{
+
+}
+int main()
+{
+   Alice()
+   PNS()
+   Bob()
+}
+
+
